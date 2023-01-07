@@ -139,7 +139,18 @@
     fill: solid;
     color:#FFFFFF; 
 }
-.button-request{
+.title {
+    background-color: #2F303A;
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    align: center;
+    vertical-align: top;
+    fill: solid;
+    color:#FFFFFF; 
+}
+.button-request {
     background-color:#2196F3;
     font-family: roboto;
     font-weight: 900;
@@ -149,6 +160,60 @@
     vertical-align: center;
     fill: solid;
     color:#FFFFFF; 
+}
+.attention {
+
+}
+.we-go {
+
+}
+.punctuality {
+
+}
+.with-us {
+
+}
+.planning {
+
+}
+.you-will {
+
+}
+.modern {
+
+}
+.we-use {
+
+}
+.what {
+
+}
+.our {
+
+}
+.christopher {
+
+}
+.product {
+
+}
+.kylie {
+
+}
+.frontend {
+
+}
+.ryan {
+
+}
+.marketing {
+
+}
+.tyler {
+
+}
+.designer {
+
 }
 .page-section1 {
     background-color: #2F303A;

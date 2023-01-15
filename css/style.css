@@ -1,15 +1,45 @@
 .unstyled-list {
     list-style-type: none;
+    display: inline-block;
+}
+.container {
+    width: 100%;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+}
+.main-menu {
+    display: inline-block;
+}
+.main-menu-contacts {
+    display: inline-block;   
 }
 .link {
     text-decoration: none;
 }
-.page-header {
-    background-color:#FFFFFF;
-   fill: solid;
+.page-section-list {
+   display: flex;
+   gap: 1;
+   justify-content: space-between; 
+   text-align: center;
 }
-.page-header nav ul {
-    
+.main-menu-item {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.page-header {
+    background-color:white;
+   fill: solid;
+   display: flex;
+   padding:2em ;
+   width: 1380px;
+   margin: 0 auto;
+}
+.main-menu-contacts {
+    margin-left: auto;
+    list-style-type: none;
 }
 .web-studio {
     font-family: raleway;
@@ -17,7 +47,7 @@
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
-    align: left;
+    text-align: left;
     vertical-align: top;
 }  
 .logo-highlight {
@@ -30,7 +60,7 @@
     line-height: 1.14;
     color: #2196F3;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
 }
 .portofolio {
@@ -40,7 +70,7 @@
     line-height: 1.14;
     color: #000000;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
 }
 .all {
@@ -49,7 +79,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    align: center; 
+    text-align: center; 
     vertical-align: top;
     fill: solid;
     color:#FFFFFF;
@@ -60,7 +90,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    align: center; 
+    text-align: center; 
     vertical-align: top;
     fill: solid;
     color: #212121;
@@ -71,7 +101,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    align: center; 
+    text-align: center; 
     vertical-align: top;
     fill: solid;
     color: #212121;
@@ -82,7 +112,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    align: center; 
+    text-align: center; 
     vertical-align: top;
     fill: solid;
     color: #212121; 
@@ -93,7 +123,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    align: center; 
+    text-align: center; 
     vertical-align: top;
     fill: solid;
     color: #212121; 
@@ -105,7 +135,7 @@
     line-height: 1.14;
     color: #000000;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top; 
 }
 .mail1 {
@@ -114,7 +144,7 @@
     font-size: 14px;
     line-height: 1.14;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
     color: #2196F3;  
 }
@@ -124,7 +154,7 @@
     font-size: 14px;
     line-height: 1.14;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
     color: #757575;    
 }
@@ -134,21 +164,33 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    align: center;
+    text-align:center;
     vertical-align: top;
     fill: solid;
     color:#FFFFFF; 
+    width: 1380px;
+    height: 400px;
+    top: 10px;
+    left: 20px;
+    margin:auto;
+    display:inline-block;
 }
 .title {
-    background-color: #2F303A;
+    background-color:#2F303A;
     font-family: roboto;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    align: center;
-    vertical-align: top;
+    font-size: 30px;
+    line-height:normal;
+    text-align: center;
+    padding: 20px;
     fill: solid;
-    color:#FFFFFF; 
+    color:#FFFFFF;
+    width: 1380px;
+    height: 200px;
+    top: 280px;
+    left: 452px;
+    margin:auto;
+    padding:auto;
 }
 .button-request {
     background-color:#2196F3;
@@ -156,65 +198,25 @@
     font-weight: 900;
     font-size: 16px;
     line-height: 1.8;
-    align: center; 
+    text-align: center; 
     vertical-align: center;
     fill: solid;
     color:#FFFFFF; 
-}
-.attention {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    left: 700px;
+    border-radius: 10px;
+    border: #2196F3;
+    display:center;
 
+      
 }
-.we-go {
 
-}
-.punctuality {
-
-}
-.with-us {
-
-}
-.planning {
-
-}
-.you-will {
-
-}
-.modern {
-
-}
-.we-use {
-
-}
-.what {
-
-}
-.our {
-
-}
-.christopher {
-
-}
-.product {
-
-}
-.kylie {
-
-}
-.frontend {
-
-}
-.ryan {
-
-}
-.marketing {
-
-}
-.tyler {
-
-}
-.designer {
-
-}
 .page-section1 {
     background-color: #2F303A;
 }
@@ -224,7 +226,7 @@
     font-size: 26px;
     line-height: 1.19;
     color: #FFFFFF;
-    align: left;
+    text-align: left;
 }
 .logo-highlight1 {
     color: #2196F3;  
@@ -236,7 +238,7 @@
     line-height: 1.14;
     color: #FFFFFF;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
 }
 .mail {
@@ -245,7 +247,7 @@
     font-size: 14px;
     line-height: 1.14;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
     color: rgba(255, 255, 255, 0.6);  
 }
@@ -255,10 +257,11 @@
     font-size: 14px;
     line-height: 1.14;
     fill: solid;
-    align: left;
+    text-align: left;
     vertical-align: top;
     color: rgba(255, 255, 255, 0.6);    
 }
 .page-section2 {
     background-color: #2F303A;
 }
+

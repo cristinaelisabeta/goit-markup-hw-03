@@ -1,7 +1,16 @@
 .unstyled-list {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
 }
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ } 
 .container {
     width: 100%;
     display: inline-block;
@@ -214,6 +223,33 @@
     display: center;
     box-shadow: 0px 4px 4px rgba(0,0,0,0.15);     
 }
+.text-section {
+    display: inline-block;  
+}
+.attention {
+    display: inline-block;
+}
+.punctuality {
+    display: inline-block;
+}
+.planning {
+    display: inline-block;
+}
+.modern {
+    display: inline-block;  
+}
+.what-section {
+    display: inline-block;
+}
+.img2-image {
+    display: inline-block;
+}
+.img-image {
+    display: inline-block;
+}
+.img1-image {
+    display: inline-block;
+}
 .what {
     font-family: roboto;
     font-weight: 700;
@@ -223,16 +259,145 @@
     text-align: center;
 }
 .our-section {
-    align-content: space-between;
-    gap: 10px;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    display: inline-block;
 }
 .our {
+    margin-top: 0;
+    margin-bottom: 20px;
     font-family: roboto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
     text-align: center; 
+}
+.christopher-section {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    display:inline-block;
+}
+.christopher-image {
+    margin-bottom: 30px;
+    border: 2px;
+}
+.christopher {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center;
+}
+.product {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #757575;
+    text-align: center;
+}
+.kylie-section {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    display:inline-block;
+}
+.kylie-image {
+    margin-bottom: 30px;
+    border: 2px;
+}
+.kylie {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center;
+}
+.frontend {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #757575;
+    text-align: center;
+}
+.ryan-section {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    display:inline-block;
+}
+.ryan-image {
+    margin-bottom: 30px;
+    border: 2px;
+}
+.ryan {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center;
+}
+.marketing {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #757575;
+    text-align: center;
+}
+.tyler-section {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    display:inline-block;
+}
+.tyler-image {
+    margin-bottom: 30px;
+    border: 2px;
+}
+.tyler {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center;
+}
+.designer {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #757575;
+    text-align: center;
 }
 .page-section1 {
     background-color: #2F303A;

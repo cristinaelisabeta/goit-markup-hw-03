@@ -5,18 +5,19 @@
 body {
     font-family: sans-serif;
     line-height: 1.5;
+    width: 1600px;
+    height: 2348px;
   }
- img {
-    display: block;
-    max-width: 100%;
-    height: auto;
- } 
 .container {
-    width: 100%;
+    width: 1600px;
     display: inline-block;
+    box-sizing: border-box;
 }
 .logo {
     display: inline-block;
+    margin-left: 215px;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 .main-menu {
     display: inline-block;
@@ -45,13 +46,8 @@ body {
    padding: 2px;
    width: 1600px;
    height: 80px;
-   left: 0px;
-   top: 0px;
-   margin: 0 auto;
-   position: absolute;
 }
 .main-menu-contacts {
-    margin-left: auto;
     list-style-type: none;
 }
 .web-studio {
@@ -75,6 +71,7 @@ body {
     fill: solid;
     text-align: left;
     vertical-align: top;
+    margin-right: 25px;
 }
 .portofolio {
     font-family: roboto;
@@ -82,64 +79,185 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: #000000;
-    fill: solid;
-    text-align: left;
-    vertical-align: top;
+    margin-right: 25px;
+}
+.button-all {
+    margin-left: 542px;
+    display: inline-block;
 }
 .all {
     background-color: #2196F3;
+    border-radius: 4px;
+    border: #2196F3;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center; 
-    vertical-align: top;
+    vertical-align: center;
     fill: solid;
-    color:#FFFFFF;
+    color:#FFFFFF; 
+    display: center;
+    margin-top: 30px;
+    width: 64px;
+    height: 38px;
+    top: 174px;
+    left: 542px;
+    padding: 6px 22px;
 }
-.web-site {
-    background-color: #F5F4FA;
+.button-web-sites {
+    margin-left: 4px;
+    display: inline-block; 
+}
+.web-site { 
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    border: #F5F4FA;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center; 
-    vertical-align: top;
+    vertical-align: center;
     fill: solid;
     color: #212121;
+    display: center;
+    margin-top: 30px;
+    width: 120px;
+    height: 38px;
+    top: 174px;
+    left: 614px;
+    padding: 6px 22px;
+}
+.button-apps {
+    margin-left: 4px;
+    display: inline-block;
 }
 .apps {
-    background-color: #F5F4FA;
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    border: #F5F4FA;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center; 
-    vertical-align: top;
+    vertical-align: center;
     fill: solid;
     color: #212121;
+    display: center;
+    margin-top: 30px;
+    width: 120px;
+    height: 38px;
+    top: 174px;
+    left: 937px;
+    padding: 6px 22px;
+}
+.button-design {
+    margin-left: 4px;
+    display: inline-block;
 }
 .design {
-    background-color: #F5F4FA;
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    border: #F5F4FA;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center; 
-    vertical-align: top;
+    vertical-align: center;
     fill: solid;
-    color: #212121; 
+    color: #212121;
+    display: center;
+    margin-top: 30px;
+    width: 120px;
+    height: 38px;
+    top: 174px;
+    left: 937px;
+    padding: 6px 22px;
 }
-.marketing {
+.button-marketing {
+    margin-left: 4px;
+    display: inline-block;
+}
+.marketing1 { 
     background-color: #F5F4FA;
+    margin-top: 30px;
+    width: 121px;
+    height: 38px;
+    top: 174px;
+    left: 937px;
+    border-radius: 4px;
+    border: #F5F4FA; 
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center; 
-    vertical-align: top;
-    fill: solid;
-    color: #212121; 
+    color: #212121;
+    display: center; 
+    padding: 6px 22px;
+}
+.photo-section {
+    display: inline-block;
+    margin-left: 215px;
+    display: flex;
+}
+.technoduck-section {
+    display: inline-block;
+    margin-top: 56px;
+    margin-right: 30px;
+}
+.technoduck-img {
+
+}
+.technoduck {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.web-site-technoduck {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #757575;
+}
+.poster-section {
+    display: inline-block;
+    margin-right: 30px;
+}
+.seafood-section {
+    display: inline-block;
+    margin-right: 30px;
+}
+.prime-section {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.boxes-section {
+    display: inline-block;
+    margin-right: 30px;
+}
+.inspiration-section {
+    display: inline-block;
+    margin-right: 30px;
+}
+.edition-section {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.project-lab-section {
+    display: inline-block;
+    margin-right: 30px;
+}
+.business-section {
+    display: inline-block;
+    margin-right: 30px;
 }
 .contacts {
     font-family: roboto;
@@ -148,8 +266,7 @@ body {
     line-height: 1.14;
     color: #000000;
     fill: solid;
-    text-align: left;
-    vertical-align: top; 
+    margin-right: 25px;
 }
 .mail1 {
     font-family: roboto;
@@ -159,22 +276,21 @@ body {
     fill: solid;
     text-align: left;
     vertical-align: top;
-    color: #2196F3;  
+    color: #2196F3;
+    margin-left: 100px;
 }
 .tel1 {
     font-family: roboto;
     font-style: 400;
     font-size: 14px;
     line-height: 1.14;
-    fill: solid;
-    text-align: left;
-    vertical-align: top;
-    color: #757575;    
+    color: #757575; 
+    margin-right: 215px;  
 }
 .title-section {
     background-color: #2F303A;
     width: 1600px;
-    height: 400px;
+    height: 600px;
     top: 80px;
     left: 0px;
     margin:auto;
@@ -194,8 +310,9 @@ body {
     height: 120px;
     top: 280px;
     left: 452px;
-    margin:auto;
-    padding:auto;
+    margin-top: 200px;
+    margin-left: 452px;
+    margin-bottom: 30px;
 }
 .button {
     text-align: center;
@@ -210,10 +327,7 @@ body {
     vertical-align: center;
     fill: solid;
     color:#FFFFFF; 
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 30px;
     width: 200px;
     height: 50px;
     top: 440px;
@@ -221,31 +335,47 @@ body {
     border-radius: 4px;
     border: #2196F3;
     display: center;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);     
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15); 
+    padding: 10px 20px;    
 }
 .text-section {
-    display: inline-block;  
+    display: inline-block;
+    margin-top: 94px; 
+    margin-bottom: 94px;
+
 }
 .attention {
     display: inline-block;
+    margin-right: 30px;
+    margin-left: 215px;
 }
 .punctuality {
     display: inline-block;
+    margin-right: 30px;
 }
 .planning {
     display: inline-block;
+    margin-right: 30px;
 }
 .modern {
-    display: inline-block;  
+    display: inline-block; 
+    margin-right: 30px;
 }
 .what-section {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
     display: inline-block;
 }
 .img2-image {
     display: inline-block;
+    margin-right: 30px;
+    margin-left: 215px;
 }
 .img-image {
     display: inline-block;
+    margin-right: 30px;
 }
 .img1-image {
     display: inline-block;
@@ -257,6 +387,8 @@ body {
     line-height: 1.16;
     color: #212121;
     text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
 }
 .our-section {
     width: 1600px;
@@ -266,8 +398,8 @@ body {
     display: inline-block;
 }
 .our {
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 94;
+    margin-bottom: 50px;
     font-family: roboto;
     font-weight: 700;
     font-size: 36px;
@@ -281,6 +413,8 @@ body {
     left: 215px;
     top: 1635px;
     display:inline-block;
+    margin-right: 30px;
+    margin-left: 215px;
 }
 .christopher-image {
     margin-bottom: 30px;
@@ -312,6 +446,7 @@ body {
     left: 215px;
     top: 1635px;
     display:inline-block;
+    margin-right: 30px;
 }
 .kylie-image {
     margin-bottom: 30px;
@@ -343,6 +478,7 @@ body {
     left: 215px;
     top: 1635px;
     display:inline-block;
+    margin-right: 30px;
 }
 .ryan-image {
     margin-bottom: 30px;
@@ -358,7 +494,7 @@ body {
     color: #212121;
     text-align: center;
 }
-.marketing {
+.ryan-marketing {
     margin-bottom: 0;
     margin-top: 0;
     font-family: roboto;
@@ -374,6 +510,7 @@ body {
     left: 215px;
     top: 1635px;
     display:inline-block;
+    margin-right: 30px;
 }
 .tyler-image {
     margin-bottom: 30px;
@@ -389,7 +526,7 @@ body {
     color: #212121;
     text-align: center;
 }
-.designer {
+.ui-designer {
     margin-bottom: 0;
     margin-top: 0;
     font-family: roboto;
@@ -399,8 +536,17 @@ body {
     color: #757575;
     text-align: center;
 }
-.page-section1 {
+.main-menu-contacts1 {
     background-color: #2F303A;
+    width: 1600px;
+    height: 251px;
+    top: 2097px;
+    left: 0px;
+    display: flex;
+}
+.page-section1 {
+    margin-left: 215px;
+    margin-top: 60px; 
 }
 .WebStudio1 {
     font-family: raleway;
@@ -409,9 +555,10 @@ body {
     line-height: 1.19;
     color: #FFFFFF;
     text-align: left;
+    margin-top: 60px;
 }
 .logo-highlight1 {
-    color: #2196F3;  
+    color: #2196F3; 
 }
 .adress {
     font-family: roboto;
@@ -419,18 +566,12 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: #FFFFFF;
-    fill: solid;
-    text-align: left;
-    vertical-align: top;
 }
 .mail {
     font-family: roboto;
     font-style: 400;
     font-size: 14px;
     line-height: 1.14;
-    fill: solid;
-    text-align: left;
-    vertical-align: top;
     color: rgba(255, 255, 255, 0.6);  
 }
 .tel {
@@ -438,9 +579,6 @@ body {
     font-style: 400;
     font-size: 14px;
     line-height: 1.14;
-    fill: solid;
-    text-align: left;
-    vertical-align: top;
     color: rgba(255, 255, 255, 0.6);    
 }
 .page-section2 {

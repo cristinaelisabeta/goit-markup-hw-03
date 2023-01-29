@@ -21,6 +21,8 @@ body {
 }
 .main-menu {
     display: inline-block;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .main-menu-contacts {
     display: inline-block;   
